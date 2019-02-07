@@ -13,6 +13,11 @@ Dependencies:
 requests
 pynlpl
 justext
+### Convert Folia Files to Conll Format
+
+This script converts Folia Files to Conll files.
+
+`python3 folia2conll.py source_dir save_dir`
 
 
 ### Convert Folia Files to OUR Format
