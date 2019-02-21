@@ -8,6 +8,12 @@ Transmitter(which is sharing the tokens) is converting the tokens from folia for
 
 Receiver is getting news from links(In this case, using  justext). Unlabeled Conll files will be created using news and script will try to match tokens of shared format from transmitter with the text of created empty Conll file. If it matches, It will change the label.
 
+1- Get news with Justext
+2- Get justext to folia
+3- Folia to Conll
+4- Matching
+
+
 Dependencies:
 
 requests
